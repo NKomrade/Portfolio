@@ -33,7 +33,7 @@ const featuredProjectsSection: FeaturedProjectsSectionType = {
         'A vibrant educational site tailored for kids, offering interactive learning games, videos, and resources.',
       tasks:
         'I developed an intuitive frontend with gamified elements and colorful design, enabling children to easily navigate and access learning content.',
-      url: 'kidzy-cyan.vercel.app', // replace with actual URL
+      url: 'https://kidzy-cyan.vercel.app', // replace with actual URL
       img: '/Website/kidzy.jpeg', // replace with actual image URL
       tags: ['React', 'TailwindCSS', 'Animations', 'Gamification'],
     },
