@@ -91,8 +91,8 @@ yarn start
 
 ## 📸 Screenshots
 
-![Screenshot Description](/Website/HOME.png)
-![Screenshot Description](/Website/ABOUT.png)
+![Home Screenshot](./public/Website/HOME.png)
+![About Screenshot](./public/Website/ABOUT.png)
 
 
 ---
