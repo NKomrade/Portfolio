@@ -4,7 +4,7 @@ Welcome to my personal portfolio website! This site showcases my journey, skills
 
 ## 🔗 Live Demo
 
-🌐 [Visit Portfolio](https://your-portfolio-link.com) <!-- Replace with actual URL -->
+🌐 [Visit Portfolio](https://portfolio-nitin-kumar-singhs-projects-8adcc343.vercel.app) <!-- Replace with actual URL -->
 
 ---
 
@@ -60,7 +60,7 @@ Welcome to my personal portfolio website! This site showcases my journey, skills
 1. **Clone the repository**
 
 ```bash
-git clone https://github.com/your-username/your-portfolio.git
+git clone https://github.com/NKomrade/Portfolio.git
 cd your-portfolio
 ```
 
@@ -91,14 +91,16 @@ yarn start
 
 ## 📸 Screenshots
 
-> (Include some screenshots or demo gifs here if desired.)
+![Home Screenshot](./public/Website/HOME.png)
+![About Screenshot](./public/Website/ABOUT.png)
+
 
 ---
 
 ## ✍️ Author
 
 **Nitin Kumar Singh**
-🚀 Full Stack Developer | React | Firebase | Next.js | Tailwind
-📫 [LinkedIn](https://www.linkedin.com/in/nitin-kumar-singh-dev/) | [GitHub](https://github.com/nitinkumarsingh-dev)
+🚀 Full Stack Developer | React | MongoDB | Next.js | Tailwind
+📫 [LinkedIn](https://www.linkedin.com/in/nitin-kumar-singh-87a281242/) | [GitHub](https://github.com/NKomrade)
 
 ---
