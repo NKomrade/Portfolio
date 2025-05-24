@@ -1,6 +1,7 @@
 import { seoData } from '@/lib/content/portfolio';
 import ThemeProvider from '@/lib/hooks/use-theme';
 import fontVariables from '@/lib/utils/fonts';
+import { Analytics } from "@vercel/analytics/next"
 
 import Cursor from '@/components/ui/Cursor';
 
@@ -39,31 +40,31 @@ export const metadata: Metadata = {
     {
       rel: 'apple-touch-icon',
       sizes: '120x120',
-      url: '/favicons/apple-touch-icon.png',
+      url: '/favicons/logo.png',
     },
     {
       rel: 'icon',
       type: 'image/png',
       sizes: '512x512',
-      url: '/favicons/android-chrome-512x512.png',
+      url: '/favicons/logo.png',
     },
     {
       rel: 'icon',
       type: 'image/png',
       sizes: '192x192',
-      url: '/favicons/android-chrome-192x192.png',
+      url: '/favicons/logo.png',
     },
     {
       rel: 'icon',
       type: 'image/png',
       sizes: '32x32',
-      url: '/favicons/favicon-32x32.png',
+      url: '/favicons/logo.png',
     },
     {
       rel: 'icon',
       type: 'image/png',
       sizes: '16x16',
-      url: '/favicons/favicon-16x16.png',
+      url: '/favicons/logo.png',
     },
   ],
 };
@@ -81,6 +82,7 @@ export default function RootLayout({
       <body className={`text-text bg-bg ${fontVariables}`}>
         <Cursor className="hidden dark:lg:block" />
         <ThemeProvider>{children}</ThemeProvider>
+        <Analytics />
       </body>
     </html>
   );

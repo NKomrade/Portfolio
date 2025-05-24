@@ -1,5 +1,5 @@
 import { Email, Footer, Navbar, Social } from '@/containers';
-import { Analytics } from "@vercel/analytics/next"
+
 type Props = {
   children: React.ReactNode;
   className?: string;
@@ -17,7 +17,6 @@ const Layout = ({ children, className = '' }: Props) => {
       <Footer />
       <Social />
       <Email />
-      <Analytics />
     </>
   );
 };
