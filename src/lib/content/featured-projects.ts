@@ -17,36 +17,25 @@ const featuredProjectsSection: FeaturedProjectsSectionType = {
     },
     {
       id: getId(),
-      name: 'Live Buy Blog Site',
+      name: 'Jewelry E-commerce Site',
       description:
-        'A dynamic blog platform for students and PG owners, featuring real-time content management',
+        'An elegant jewelry showcase website featuring modern design and interactive product galleries',
       tasks:
-        'I created an engaging blog interface, added blog management features, and implemented a responsive design using React and TailwindCSS.',
-      url: 'https://blogs.livebuy.in/', // replace with actual URL
-      img: '/Website/livebuy.png', // replace with actual image URL
-      tags: ['React', 'Node.js', 'TailwindCSS'],
+        'I developed a sophisticated jewelry e-commerce interface with responsive design, smooth animations, and interactive product showcases using React and TailwindCSS.',
+      url: 'https://resin-one.vercel.app',
+      img: '/Website/resin.png',
+      tags: ['React', 'TailwindCSS', 'E-commerce', 'Responsive Design'],
     },
     {
       id: getId(),
-      name: 'Kidzy Site',
+      name: 'Tiles Gallery Portfolio',
       description:
-        'A vibrant educational site tailored for kids, offering interactive learning games, videos, and resources.',
+        'A professional tiles showcase website featuring dynamic image galleries and portfolio sections',
       tasks:
-        'I developed an intuitive frontend with gamified elements and colorful design, enabling children to easily navigate and access learning content.',
-      url: 'https://kidzy-cyan.vercel.app', // replace with actual URL
-      img: '/Website/kidzy.jpeg', // replace with actual image URL
-      tags: ['React', 'TailwindCSS', 'Animations', 'Gamification'],
-    },
-    {
-      id: getId(),
-      name: 'AthleteAware',
-      description:
-        'A mobile/web platform aimed at spreading anti-doping awareness among athletes using gamification and community forums.',
-      tasks:
-        'I worked on the UI/UX design, integrated Firebase for authentication and real-time database, built features like quizzes, notifications, mentor forums, and leaderboard systems.',
-      url: 'https://anti-doping-one.vercel.app', // replace with actual URL
-      img: '/Website/athlete.png', // replace with actual image URL
-      tags: ['React', 'Firebase', 'Gamification', 'TailwindCSS'],
+        'I built a visually appealing tiles portfolio with optimized image loading, grid layouts, and modern CSS techniques to create an engaging showcase experience.',
+      url: 'https://tiles-work.vercel.app',
+      img: '/Website/tiles.png',
+      tags: ['React', 'CSS Grid', 'Image Optimization', 'Portfolio'],
     },
     {
       id: getId(),
